@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  letter-spacing: 1.2px;
+}
+
+.head-1 {
+  font-size: 90px;
+}
+
+.head-2 {
+  font-size: 60px;
+}
+
+.head-3 {
+  font-size: 30px;
+}
+
+.head {
+  font-family: "GT-Flexa med";
+}
+
+.it {
+  font-family: "GT-Flexa med it";
+}
+
+.text {
+  font-family: "Noto Sans", sans-serif;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+}
+
+/* sec-1 */
+#sec-1 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  letter-spacing: 1.2px;
+}
+
+.about-desc {
+  margin-top: 100px;
+  margin-left: 650px;
+  position: relative;
+}
+
+.po-1 {
+  position: relative;
+  right: 300px;
+}
+.po-2 {
+  position: relative;
+  right: 250px;
+}
+
+span {
+  position: relative;
+  right: 150px;
+}
+
+@font-face {
+  font-family: "GT-Flexa med";
+  src: url(GT-Flexa-Condensed-Medium-Trial.woff2);
+}
+
+/* @font-face {
+  font-family: "GT-Flexa med it";
+  src: url(GT-Flexa-Condensed-Medium-Italic-Trial.woff2);
+} */
+
+.curly {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  margin-right: 3%;
+  color: rgb(103, 107, 134);
+}
+
+#wrapper-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#wrapper-nav > div {
+  margin-right: 50px;
+}
+
+/* sec-2 */
+#sec-2 {
+  margin-top: 200px;
+  text-align: center;
+}
+
+#wrapper-cando {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  margin-bottom: 30px;
+}
+
+.line {
+  line-height: 50px;
+}
+
+/* sec-3 */
+.sec-3 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#wrapper-port {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60px;
+}
+
+#wrapper-outer-port {
+  width: 300px;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+}
