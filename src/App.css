@@ -124,6 +124,7 @@ img {
 
 /* sec-3 */
 .sec-3 {
+  margin-top: 200px;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -138,6 +139,7 @@ img {
 }
 
 #wrapper-outer-port {
+  margin-top: 70px;
   width: 300px;
   display: flex;
   flex-direction: wrap;

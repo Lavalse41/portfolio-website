@@ -7,10 +7,10 @@ function HomeSec2() {
       <div id="wrapper-cando">
         <div>
           <img
-            src="https://i.ibb.co/Fsfj8mn/test-pic.jpg"
+            src="https://i.ibb.co/S7CRcQh/icon-graphic.png"
             height="350"
             width="350"
-            alt="test-pic"
+            alt="icon-graphic"
           ></img>
           <p className="head head-3">Graphic Design</p>
           <p className="text">
@@ -19,10 +19,10 @@ function HomeSec2() {
         </div>
         <div style={{ marginLeft: "100px" }}>
           <img
-            src="https://i.ibb.co/Fsfj8mn/test-pic.jpg"
+            src="https://i.ibb.co/MpLVJ4k/icon-coding.png"
             height="350"
             width="350"
-            alt="test-pic"
+            alt="icon-coding"
           ></img>
           <p className="head head-3">Web development</p>
           <p className="text">

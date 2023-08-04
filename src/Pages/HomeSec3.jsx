@@ -1,5 +1,5 @@
 import "../App.css";
-import { portfolio } from "../component/portfolio";
+import { portfolio } from "../component/portfolio.js";
 
 function HomeSec3() {
   return (
@@ -10,8 +10,8 @@ function HomeSec3() {
           return (
             <div key={index} id="wrapper-port">
               <img
-                src="https://i.ibb.co/Fsfj8mn/test-pic.jpg"
-                alt=""
+                src={item.img.src}
+                alt={item.img.alt}
                 height="350"
                 width="350"
               ></img>
