@@ -140,8 +140,9 @@ img {
 
 #wrapper-outer-port {
   margin-top: 70px;
-  width: 300px;
+  width: 80%;
   display: flex;
-  flex-direction: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
 }

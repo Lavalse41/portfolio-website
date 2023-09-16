@@ -1,6 +1,6 @@
 import "../App.css";
 
-function HomeSec2() {
+function Skill() {
   return (
     <section id="sec-2">
       <p className="head head-2">I can help you with..</p>
@@ -53,4 +53,4 @@ function HomeSec2() {
     </section>
   );
 }
-export default HomeSec2;
+export default Skill;

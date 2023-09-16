@@ -1,6 +1,6 @@
 import "../App.css";
 
-function HomeSec1() {
+function About() {
   const curlyL = "{";
   const curlyR = "}";
   const quoteSym = "'";
@@ -29,4 +29,4 @@ function HomeSec1() {
   );
 }
 
-export default HomeSec1;
+export default About;
