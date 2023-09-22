@@ -1,5 +1,5 @@
 import "../App.css";
-import { portfolio } from "./portfolio.js";
+import { portfolio, webport } from "./portfolio.js";
 
 function Project() {
   return (
@@ -37,14 +37,13 @@ function Project() {
 
               <div className="slide slide_2">
                 <div className="wrapper-port">
-                  {portfolio.map((item, index) => {
+                  {webport.map((item, index) => {
                     return (
-                      <div key={index}>
+                      <div key={index} className="port-container">
                         <img
                           src={item.img.src}
                           alt={item.img.alt}
-                          height="350"
-                          width="350"
+                          height="600"
                         ></img>
                         <p className="text">{item.title}</p>
                       </div>
