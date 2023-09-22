@@ -51,3 +51,34 @@ export const portfolio = [
     description: "Type that itches you hard",
   },
 ];
+
+export const webport = [
+  {
+    title: "Hotel Management System",
+    img: {
+      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1695347072/portfolio/hotel_cr8g9c.jpg",
+      alt: "hotel-webapp",
+    },
+  },
+  {
+    title: "Grocery Shopping Planer",
+    img: {
+      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1695347073/portfolio/mommy_grocery-2_r7scwu.png",
+      alt: "grocery-planer",
+    },
+  },
+  {
+    title: "Whale Language Translator",
+    img: {
+      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1695347072/portfolio/whale_speak2_jzf1db.jpg",
+      alt: "whale-speak",
+    },
+  },
+  {
+    title: "Eat 'n Spilt",
+    img: {
+      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1695347072/portfolio/spilt_bill_zlu0xt.jpg",
+      alt: "eat-n-spilt",
+    },
+  },
+];

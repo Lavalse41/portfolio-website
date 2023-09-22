@@ -7,7 +7,7 @@ function Skill() {
       <div id="wrapper-cando">
         <div>
           <img
-            src="https://i.ibb.co/S7CRcQh/icon-graphic.png"
+            src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1695387119/portfolio/graphic_kozwsx.jpg"
             height="350"
             width="350"
             alt="icon-graphic"
@@ -19,7 +19,7 @@ function Skill() {
         </div>
         <div style={{ marginLeft: "100px" }}>
           <img
-            src="https://i.ibb.co/MpLVJ4k/icon-coding.png"
+            src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1695387117/portfolio/coding_mg9aef.jpg"
             height="350"
             width="350"
             alt="icon-coding"
