@@ -54,31 +54,48 @@ export const portfolio = [
 
 export const webport = [
   {
+    id: "web1",
     title: "Hotel Management System",
     img: {
-      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1695347072/portfolio/hotel_cr8g9c.jpg",
+      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1697561159/portfolio/neatly_yjgsoh.png",
       alt: "hotel-webapp",
     },
+    video: {
+      src: "https://res.cloudinary.com/dluc2m7kg/video/upload/v1697633443/portfolio/vid/Neatly_-_Google_Chrome_2566-10-18_19-45-14_sgpukh.mp4",
+    },
   },
   {
+    id: "web2",
     title: "Grocery Shopping Planer",
     img: {
-      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1695347073/portfolio/mommy_grocery-2_r7scwu.png",
+      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1697644654/portfolio/mommy_grocery-2_aqaxzh.png",
       alt: "grocery-planer",
     },
-  },
-  {
-    title: "Whale Language Translator",
-    img: {
-      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1695347072/portfolio/whale_speak2_jzf1db.jpg",
-      alt: "whale-speak",
+    video: {
+      src: "https://res.cloudinary.com/dluc2m7kg/video/upload/v1697644530/portfolio/vid/grocery_demo-2Trim_xbbpuz.mp4",
     },
   },
   {
+    id: "web3",
+    title: "Whale Language Translator",
+    img: {
+      src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1697704116/portfolio/whale_speak_fcfbpv.png",
+      alt: "whale-speak",
+    },
+    video: {
+      src: "https://res.cloudinary.com/dluc2m7kg/video/upload/v1697704645/portfolio/vid/whale_demo_ziwyuj.mp4",
+    },
+  },
+  {
+    id: "web4",
     title: "Eat 'n Spilt",
     img: {
       src: "https://res.cloudinary.com/dluc2m7kg/image/upload/v1695347072/portfolio/spilt_bill_zlu0xt.jpg",
       alt: "eat-n-spilt",
+    },
+    demo: "eat-n-split-red.vercel.app",
+    video: {
+      src: "https://res.cloudinary.com/dluc2m7kg/video/upload/v1697645599/portfolio/vid/spilt-bill_demo_ltz426.mp4",
     },
   },
 ];

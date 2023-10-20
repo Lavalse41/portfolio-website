@@ -1,0 +1,282 @@
+/*tool animation*/
+.tool-icon {
+  position: absolute;
+}
+
+#sql-wrapper {
+  z-index: 2;
+  position: absolute;
+  animation: x-axis-sql 0.7s linear;
+  left: 10px;
+  top: 0;
+}
+
+#sql {
+  animation: y-axis-sql 0.7s ease-out;
+}
+
+@keyframes x-axis-sql {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes y-axis-sql {
+  0% {
+    transform: translateY(230px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#mongo-wrapper {
+  z-index: 2;
+  position: absolute;
+  animation: x-axis-mongo 0.7s linear;
+  left: 30px;
+  top: 80px;
+}
+
+#mongo {
+  animation: y-axis-mongo 0.7s ease-out;
+}
+
+@keyframes x-axis-mongo {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes y-axis-mongo {
+  0% {
+    transform: translateY(160px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#react-wrapper {
+  z-index: 2;
+  position: absolute;
+  animation: x-axis-react 0.7s linear;
+  left: -120px;
+  top: -40px;
+}
+
+#react {
+  animation: y-axis-react 0.7s ease-out;
+}
+
+@keyframes x-axis-react {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes y-axis-react {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#js-wrapper {
+  z-index: 2;
+  position: absolute;
+  animation: x-axis-js 0.6s linear;
+  left: -260px;
+  top: -55px;
+}
+
+#js {
+  animation: y-axis-js 0.6s ease-out;
+}
+
+@keyframes x-axis-js {
+  0% {
+    transform: translateX(-40px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes y-axis-js {
+  0% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#css-wrapper {
+  z-index: 2;
+  position: absolute;
+  animation: x-axis-css 0.6s linear;
+  left: -430px;
+  top: -55px;
+}
+
+#css {
+  animation: y-axis-css 0.6s ease-out;
+}
+
+@keyframes x-axis-css {
+  0% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes y-axis-css {
+  0% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#html-wrapper {
+  z-index: 2;
+  position: absolute;
+  animation: x-axis-html 0.7s linear;
+  left: -570px;
+  top: -30px;
+}
+
+#html {
+  animation: y-axis-html 0.7s ease-out;
+}
+
+@keyframes x-axis-html {
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes y-axis-html {
+  0% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#tailw-wrapper {
+  z-index: 2;
+  position: absolute;
+  animation: x-axis-tailw 0.7s linear;
+  left: -700px;
+  top: 60px;
+}
+
+#tailw {
+  animation: y-axis-tailw 0.7s ease-out;
+}
+
+@keyframes x-axis-tailw {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes y-axis-tailw {
+  0% {
+    transform: translateY(200px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#node-wrapper {
+  z-index: 2;
+  position: absolute;
+  animation: x-axis-node 0.7s linear;
+  left: -670px;
+  top: 140px;
+}
+
+#node {
+  animation: y-axis-node 0.7s ease-out;
+}
+
+@keyframes x-axis-node {
+  0% {
+    transform: translateX(220px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes y-axis-node {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/*tool animation*/
+
+.pepe {
+  animation-name: pepe;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+@keyframes pepe {
+  from,
+  33%,
+  66%,
+  to {
+    transform: rotate(10deg);
+  }
+  16%,
+  50%,
+  83% {
+    transform: rotate(-10deg);
+  }
+}
+
+#glow img:hover {
+  scale: 1.2;
+}
+
+.about-me {
+  position: absolute;
+  top: 37%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  transform: rotate(-10deg);
+}
+
+.about-me:hover {
+  cursor: pointer;
+}
