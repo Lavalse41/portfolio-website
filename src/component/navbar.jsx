@@ -21,7 +21,7 @@ function Navbar() {
           </Link>
         </div>
         <div>
-          <Link smooth to={location.name === "/" ? "#footer" : "/#footer"}>
+          <Link smooth to="#footer">
             Contact
           </Link>
         </div>

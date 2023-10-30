@@ -1,13 +1,13 @@
 import "../App.css";
-import { useRef, useState } from "react";
 import { portfolio, webport } from "./portfolio.js";
+import { useRef, useState } from "react";
 
 function Project() {
   const playerRefs = webport.map(() => useRef());
-  const [showProject, setShowProject] = useState("webdev");
+  const [footerPosition, setFooterPosition] = useState("webdev");
 
-  function handleShowProject(project) {
-    setShowProject(project);
+  function handleFooterPosition(project) {
+    setFooterPosition(project);
   }
 
   function handleMouseOver(index) {
@@ -19,12 +19,28 @@ function Project() {
   }
 
   return (
-    <section className="project" id="portfolio">
+    <section
+      className={
+        footerPosition === "graphic" ? `project project-hidden` : `project`
+      }
+      id="portfolio"
+    >
       <p className="head head-2">My Lastest Project</p>
 
       <div className="slider">
-        <input type="radio" name="slider" id="slide1"></input>
-        <input type="radio" name="slider" id="slide2" defaultChecked></input>
+        <input
+          type="radio"
+          name="slider"
+          id="slide1"
+          onClick={() => handleFooterPosition("graphic")}
+        ></input>
+        <input
+          type="radio"
+          name="slider"
+          id="slide2"
+          defaultChecked
+          onClick={() => handleFooterPosition("webdev")}
+        ></input>
         <div id="option">
           <label htmlFor="slide1" className="bodytext-2 blue">
             Graphic Design

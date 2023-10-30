@@ -1,14 +1,15 @@
 import { HashLink as Link } from "react-router-hash-link";
 
-function Footer() {
+function Footer({ footerPosition }) {
+  console.log(footerPosition);
   return (
     <div
       id="footer"
-      style={{
-        display: "flex",
-        justifyContent: "space-evenly",
-        marginBottom: "5rem",
-      }}
+      className={
+        footerPosition === "graphic"
+          ? `footer-wrapper high`
+          : `footer-wrapper low`
+      }
     >
       {/*phone*/}
 

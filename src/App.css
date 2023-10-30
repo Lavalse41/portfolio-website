@@ -240,6 +240,7 @@ img {
 }
 
 /* project */
+
 .project {
   margin-top: 200px;
   display: flex;
@@ -247,10 +248,10 @@ img {
   align-items: center;
 }
 
-/* video {
-  position: absolute;
-  left: 0;
-} */
+.project-hidden {
+  height: 1200px;
+  overflow-y: hidden;
+}
 
 .wrapper-port .slider {
   margin: 0 auto;
@@ -272,6 +273,7 @@ img {
   width: 100%;
   overflow: hidden;
 }
+
 #slide1:checked ~ .slides .inner {
   margin-left: 0;
 }
@@ -444,6 +446,7 @@ a:hover {
 
 .resume-title {
   font-size: 2rem;
+  font-family: "Inter";
 }
 
 .resume-side {
@@ -551,4 +554,11 @@ button:hover {
 .footer-text {
   font-size: 1rem;
   color: black;
+}
+
+.footer-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
 }
