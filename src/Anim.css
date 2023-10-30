@@ -3,240 +3,264 @@
   position: absolute;
 }
 
-#sql-wrapper {
-  z-index: 2;
-  position: absolute;
-  animation: x-axis-sql 0.7s linear;
-  left: 10px;
-  top: 0;
+.sql-wrapper-final {
+  animation: x-axis-sql 0.7s linear forwards;
 }
 
-#sql {
-  animation: y-axis-sql 0.7s ease-out;
+.sql-wrapper {
+  z-index: 2;
+  position: absolute;
+  left: -300px;
+  top: 230px;
+}
+
+.sql-final {
+  animation: y-axis-sql 0.7s ease-out forwards; /* Apply animation to both start and end positions */
 }
 
 @keyframes x-axis-sql {
   0% {
-    transform: translateX(-200px);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(160px);
   }
 }
 @keyframes y-axis-sql {
   0% {
-    transform: translateY(230px);
-  }
-  100% {
     transform: translateY(0px);
   }
+  100% {
+    transform: translateY(-220px);
+  }
 }
 
-#mongo-wrapper {
+.mongo-wrapper-final {
+  animation: x-axis-mongo 0.7s linear forwards;
+}
+
+.mongo-wrapper {
   z-index: 2;
   position: absolute;
-  animation: x-axis-mongo 0.7s linear;
-  left: 30px;
-  top: 80px;
+  left: -280px;
+  top: 220px;
 }
 
-#mongo {
-  animation: y-axis-mongo 0.7s ease-out;
+.mongo-final {
+  animation: y-axis-mongo 0.7s ease-out forwards;
 }
 
 @keyframes x-axis-mongo {
   0% {
-    transform: translateX(-200px);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(160px);
   }
 }
 @keyframes y-axis-mongo {
   0% {
-    transform: translateY(160px);
-  }
-  100% {
     transform: translateY(0px);
   }
+  100% {
+    transform: translateY(-130px);
+  }
 }
 
-#react-wrapper {
+.react-wrapper {
   z-index: 2;
   position: absolute;
-  animation: x-axis-react 0.7s linear;
-  left: -120px;
-  top: -40px;
+  left: -220px;
+  top: 230px;
 }
 
-#react {
-  animation: y-axis-react 0.7s ease-out;
+.react-wrapper-final {
+  animation: x-axis-react 0.7s linear forwards;
+}
+
+.react-final {
+  animation: y-axis-react 0.7s ease-out forwards;
 }
 
 @keyframes x-axis-react {
   0% {
-    transform: translateX(-100px);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(60px);
   }
 }
 @keyframes y-axis-react {
   0% {
-    transform: translateY(300px);
-  }
-  100% {
     transform: translateY(0px);
   }
+  100% {
+    transform: translateY(-270px);
+  }
 }
 
-#js-wrapper {
+.js-wrapper {
   z-index: 2;
   position: absolute;
-  animation: x-axis-js 0.6s linear;
-  left: -260px;
-  top: -55px;
+  left: -280px;
+  top: 240px;
 }
 
-#js {
-  animation: y-axis-js 0.6s ease-out;
+.js-wrapper-final {
+  animation: x-axis-js 0.6s linear forwards;
+}
+
+.js-final {
+  animation: y-axis-js 0.6s ease-out forwards;
 }
 
 @keyframes x-axis-js {
   0% {
-    transform: translateX(-40px);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(15px);
   }
 }
 
 @keyframes y-axis-js {
   0% {
-    transform: translateY(250px);
-  }
-  100% {
     transform: translateY(0px);
   }
+  100% {
+    transform: translateY(-300px);
+  }
 }
 
-#css-wrapper {
+.css-wrapper {
   z-index: 2;
   position: absolute;
-  animation: x-axis-css 0.6s linear;
-  left: -430px;
-  top: -55px;
+  left: -340px;
+  top: 240px;
 }
 
-#css {
-  animation: y-axis-css 0.6s ease-out;
+.css-wrapper-final {
+  animation: x-axis-css 0.6s linear forwards;
+}
+
+.css-final {
+  animation: y-axis-css 0.6s ease-out forwards;
 }
 
 @keyframes x-axis-css {
   0% {
-    transform: translateX(40px);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(-45px);
   }
 }
 
 @keyframes y-axis-css {
   0% {
-    transform: translateY(250px);
-  }
-  100% {
     transform: translateY(0px);
   }
+  100% {
+    transform: translateY(-300px);
+  }
 }
 
-#html-wrapper {
+.html-wrapper {
   z-index: 2;
   position: absolute;
-  animation: x-axis-html 0.7s linear;
-  left: -570px;
-  top: -30px;
+  left: -300px;
+  top: 250px;
 }
 
-#html {
-  animation: y-axis-html 0.7s ease-out;
+.html-wrapper-final {
+  animation: x-axis-html 0.7s linear forwards;
+}
+
+.html-final {
+  animation: y-axis-html 0.7s ease-out forwards;
 }
 
 @keyframes x-axis-html {
   0% {
-    transform: translateX(150px);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(-140px);
   }
 }
 
 @keyframes y-axis-html {
   0% {
-    transform: translateY(250px);
-  }
-  100% {
     transform: translateY(0px);
   }
+  100% {
+    transform: translateY(-270px);
+  }
 }
 
-#tailw-wrapper {
-  z-index: 2;
+.tailw-wrapper {
+  z-index: 3;
   position: absolute;
-  animation: x-axis-tailw 0.7s linear;
-  left: -700px;
-  top: 60px;
+  left: -300px;
+  top: 240px;
 }
 
-#tailw {
-  animation: y-axis-tailw 0.7s ease-out;
+.tailw-wrapper-final {
+  animation: x-axis-tailw 0.7s linear forwards;
+}
+
+.tailw-final {
+  animation: y-axis-tailw 0.7s ease-out forwards;
 }
 
 @keyframes x-axis-tailw {
   0% {
-    transform: translateX(200px);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(-200px);
   }
 }
 
 @keyframes y-axis-tailw {
   0% {
-    transform: translateY(200px);
-  }
-  100% {
     transform: translateY(0px);
   }
+  100% {
+    transform: translateY(-190px);
+  }
 }
 
-#node-wrapper {
-  z-index: 2;
+.node-wrapper {
+  z-index: 10;
   position: absolute;
-  animation: x-axis-node 0.7s linear;
-  left: -670px;
-  top: 140px;
+  left: -250px;
+  top: 250px;
 }
 
-#node {
-  animation: y-axis-node 0.7s ease-out;
+.node-wrapper-final {
+  animation: x-axis-node 0.7s linear forwards;
+}
+
+.node-final {
+  animation: y-axis-node 0.7s ease-out forwards;
 }
 
 @keyframes x-axis-node {
   0% {
-    transform: translateX(220px);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(-220px);
   }
 }
 
 @keyframes y-axis-node {
   0% {
-    transform: translateY(100px);
+    transform: translateY(0px);
   }
   100% {
-    transform: translateY(0px);
+    transform: translateY(-120px);
   }
 }
 
@@ -274,7 +298,9 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 35px;
+  font-weight: 600;
   transform: rotate(-10deg);
+  font-family: "Inter";
 }
 
 .about-me:hover {

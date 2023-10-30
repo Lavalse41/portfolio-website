@@ -1,9 +1,14 @@
 import "../App.css";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { portfolio, webport } from "./portfolio.js";
 
 function Project() {
   const playerRefs = webport.map(() => useRef());
+  const [showProject, setShowProject] = useState("webdev");
+
+  function handleShowProject(project) {
+    setShowProject(project);
+  }
 
   function handleMouseOver(index) {
     playerRefs[index].current.play();
@@ -14,12 +19,12 @@ function Project() {
   }
 
   return (
-    <section className="project">
+    <section className="project" id="portfolio">
       <p className="head head-2">My Lastest Project</p>
 
       <div className="slider">
-        <input type="radio" name="slider" id="slide1" defaultChecked></input>
-        <input type="radio" name="slider" id="slide2"></input>
+        <input type="radio" name="slider" id="slide1"></input>
+        <input type="radio" name="slider" id="slide2" defaultChecked></input>
         <div id="option">
           <label htmlFor="slide1" className="bodytext-2 blue">
             Graphic Design
@@ -93,7 +98,11 @@ function Project() {
                             Github code
                           </a>
                           <div className="separate-line"></div>
-                          <a className="project-link-wrapper">
+                          <a
+                            href={item.link}
+                            target="_blank"
+                            className="project-link-wrapper"
+                          >
                             <img
                               width="25px"
                               src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697711548/portfolio/cinema-clapperboard_nwnu2l.png"

@@ -1,5 +1,6 @@
 import "../App.css";
 import "../Anim.css";
+import { HashLink as Link } from "react-router-hash-link";
 
 function About() {
   const curlyL = "{";
@@ -51,10 +52,12 @@ function About() {
         <div id="glow-wrapper">
           <div id="glow" className="cssanimation hu__hu__">
             <img src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697773511/portfolio/glow_hesymg.png"></img>
-            <div className="about-me">
-              <p>Learn more</p>
-              <p>About Me</p>
-            </div>
+            <Link to="/resume">
+              <div className="about-me">
+                <p>Learn more</p>
+                <p>About Me</p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

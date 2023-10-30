@@ -63,6 +63,7 @@ export const webport = [
     video: {
       src: "https://res.cloudinary.com/dluc2m7kg/video/upload/v1697633443/portfolio/vid/Neatly_-_Google_Chrome_2566-10-18_19-45-14_sgpukh.mp4",
     },
+    link: "https://neatly-hotel-management.vercel.app/",
   },
   {
     id: "web2",
@@ -74,6 +75,7 @@ export const webport = [
     video: {
       src: "https://res.cloudinary.com/dluc2m7kg/video/upload/v1697644530/portfolio/vid/grocery_demo-2Trim_xbbpuz.mp4",
     },
+    link: "https://react-mommy-grocery.vercel.app/",
   },
   {
     id: "web3",
@@ -85,6 +87,7 @@ export const webport = [
     video: {
       src: "https://res.cloudinary.com/dluc2m7kg/video/upload/v1697704645/portfolio/vid/whale_demo_ziwyuj.mp4",
     },
+    link: "https://react-whale-speak.vercel.app/",
   },
   {
     id: "web4",
@@ -97,5 +100,6 @@ export const webport = [
     video: {
       src: "https://res.cloudinary.com/dluc2m7kg/video/upload/v1697645599/portfolio/vid/spilt-bill_demo_ltz426.mp4",
     },
+    link: "https://react-eat-n-spilt.vercel.app/",
   },
 ];
