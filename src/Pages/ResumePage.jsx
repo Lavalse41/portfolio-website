@@ -18,7 +18,8 @@ function ResumePage() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "80vh",
+          height: "70vh",
+          padding: "0rem 5rem",
         }}
       >
         <div className="resume-wrapper">
@@ -40,13 +41,17 @@ function ResumePage() {
                 onClick={() => handleSelectedContent("aboutme")}
                 className="detail-about-me"
               >
-                About Me
+                <img src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1698681990/portfolio/flower_stamp_blue_edmtz2.png"></img>
+                <div>About Me</div>
               </button>
               <button
                 onClick={() => handleSelectedContent("workexp")}
                 className="working-exp"
               >
-                Work <br></br> Experience
+                <img src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1698681990/portfolio/flower_stamp_green_hqcjxh.png"></img>
+                <div>
+                  Work <br></br> Experience
+                </div>
               </button>
             </div>
           </div>

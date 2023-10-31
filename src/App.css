@@ -409,7 +409,8 @@ a:hover {
 
 .resume-wrapper {
   display: grid;
-  grid-template-columns: 36rem 45rem;
+  max-width: 81.25rem;
+  grid-template-columns: 45% 55%;
   /* column-gap: 3rem; */
 }
 
@@ -477,15 +478,20 @@ button:hover {
   cursor: pointer;
 }
 
-.detail-about-me {
-  background-color: var(--main--2);
+.detail-about-me,
+.working-exp {
   font-size: 1.3rem;
+  position: relative;
+  z-index: 0;
+  background: none;
 }
 
-.working-exp {
-  background-color: var(--main--1);
-  background-color: #15c530;
-  font-size: 1.3rem;
+.detail-about-me img,
+.working-exp img {
+  width: 10rem;
+  position: absolute;
+  z-index: -50;
+  top: 0;
 }
 
 .resume-topic {
@@ -559,6 +565,6 @@ button:hover {
 .footer-wrapper {
   position: relative;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 5rem;
 }
