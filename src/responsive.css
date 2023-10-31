@@ -1,0 +1,163 @@
+@media only screen and (min-width: 1537px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  html {
+    font-size: 100%;
+  }
+
+  .footer-outer {
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 80%;
+  }
+
+  /*about*/
+  .head-1 {
+    font-size: 450%;
+  }
+
+  #flower {
+    left: 10.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 70%;
+  }
+
+  /*about*/
+  .head-1 {
+    font-size: 400%;
+  }
+
+  #flower {
+    left: 9.5rem;
+  }
+
+  #hihand {
+    left: 4.5rem;
+  }
+
+  #glow {
+    position: relative;
+    top: 28rem;
+    left: -8rem;
+  }
+
+  .edu-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .edu-skill-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .resume-skill-wrapper {
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+
+  #wrapper-nav {
+    padding: 1.875rem 0rem;
+  }
+
+  #root {
+    padding: 0rem 3rem;
+  }
+
+  .web-example,
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 75%;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 1.5rem;
+  }
+
+  /*about*/
+
+  .po-2 {
+    left: 7rem;
+  }
+
+  .po-4 {
+    left: 0-5rem;
+  }
+
+  .about-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*resume*/
+
+  .ratiporn:after,
+  .promsuk:after {
+    -webkit-text-stroke: 6px var(--main--2);
+  }
+
+  #wrapper-nav {
+    margin-left: 1rem;
+  }
+
+  .edu-wrapper {
+    flex-direction: column;
+  }
+  .resume-content {
+    margin-top: 2rem;
+  }
+  .resume-outer {
+    display: flex;
+    align-items: flex-start;
+    max-width: 30rem;
+    min-width: 21rem;
+  }
+
+  #wrapper-nav > div {
+    margin-right: 1.7rem;
+  }
+
+  .resume-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .footer-wrapper {
+    top: 660px;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer-outer {
+    /* padding: 0rem 1.5rem; */
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .footer-wrapper {
+    top: 690px;
+  }
+}

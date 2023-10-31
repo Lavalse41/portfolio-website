@@ -3,6 +3,10 @@
   position: absolute;
 }
 
+.sql {
+  width: 4.375rem;
+}
+
 .sql-wrapper-final {
   animation: x-axis-sql 0.7s linear forwards;
 }
@@ -10,8 +14,8 @@
 .sql-wrapper {
   z-index: 2;
   position: absolute;
-  left: -300px;
-  top: 230px;
+  left: -18.75rem;
+  top: 14.375rem;
 }
 
 .sql-final {
@@ -20,10 +24,10 @@
 
 @keyframes x-axis-sql {
   0% {
-    transform: translateX(0px);
+    transform: translateX(0rem);
   }
   100% {
-    transform: translateX(160px);
+    transform: translateX(10rem);
   }
 }
 @keyframes y-axis-sql {
@@ -31,8 +35,12 @@
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-220px);
+    transform: translateY(-13.75rem);
   }
+}
+
+.mongo {
+  width: 6rem;
 }
 
 .mongo-wrapper-final {
@@ -42,8 +50,8 @@
 .mongo-wrapper {
   z-index: 2;
   position: absolute;
-  left: -280px;
-  top: 220px;
+  left: -17.5rem;
+  top: 13.75rem;
 }
 
 .mongo-final {
@@ -55,7 +63,7 @@
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(160px);
+    transform: translateX(10rem);
   }
 }
 @keyframes y-axis-mongo {
@@ -63,15 +71,19 @@
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-130px);
+    transform: translateY(-8.125rem);
   }
+}
+
+.react {
+  width: 3.75rem;
 }
 
 .react-wrapper {
   z-index: 2;
   position: absolute;
-  left: -220px;
-  top: 230px;
+  left: -13.75rem;
+  top: 14.375rem;
 }
 
 .react-wrapper-final {
@@ -87,7 +99,7 @@
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(60px);
+    transform: translateX(3.75rem);
   }
 }
 @keyframes y-axis-react {
@@ -95,15 +107,19 @@
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-270px);
+    transform: translateY(-16.875rem);
   }
+}
+
+.js {
+  width: 3.125rem;
 }
 
 .js-wrapper {
   z-index: 2;
   position: absolute;
-  left: -280px;
-  top: 240px;
+  left: -17.5rem;
+  top: 15rem;
 }
 
 .js-wrapper-final {
@@ -119,7 +135,7 @@
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(15px);
+    transform: translateX(0.938rem);
   }
 }
 
@@ -128,15 +144,19 @@
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-300px);
+    transform: translateY(-18.75rem);
   }
+}
+
+.css {
+  width: 3.75rem;
 }
 
 .css-wrapper {
   z-index: 2;
   position: absolute;
-  left: -340px;
-  top: 240px;
+  left: -21.25rem;
+  top: 15rem;
 }
 
 .css-wrapper-final {
@@ -152,7 +172,7 @@
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(-45px);
+    transform: translateX(-2.813rem);
   }
 }
 
@@ -161,15 +181,19 @@
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-300px);
+    transform: translateY(-18.75rem);
   }
+}
+
+.html {
+  width: 3.125rem;
 }
 
 .html-wrapper {
   z-index: 2;
   position: absolute;
-  left: -300px;
-  top: 250px;
+  left: -18.75rem;
+  top: 15.625rem;
 }
 
 .html-wrapper-final {
@@ -185,7 +209,7 @@
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(-140px);
+    transform: translateX(-8.75rem);
   }
 }
 
@@ -194,15 +218,19 @@
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-270px);
+    transform: translateY(-16.875rem);
   }
+}
+
+.tailw {
+  width: 4rem;
 }
 
 .tailw-wrapper {
   z-index: 3;
   position: absolute;
-  left: -300px;
-  top: 240px;
+  left: -18.75rem;
+  top: 15rem;
 }
 
 .tailw-wrapper-final {
@@ -218,7 +246,7 @@
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(-200px);
+    transform: translateX(-12.5rem);
   }
 }
 
@@ -227,15 +255,19 @@
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-190px);
+    transform: translateY(-11.875rem);
   }
+}
+
+.node {
+  width: 2.8125rem;
 }
 
 .node-wrapper {
   z-index: 10;
   position: absolute;
-  left: -250px;
-  top: 250px;
+  left: -15.625rem;
+  top: 15.625rem;
 }
 
 .node-wrapper-final {
@@ -251,7 +283,7 @@
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(-220px);
+    transform: translateX(-13.75rem);
   }
 }
 
@@ -260,7 +292,7 @@
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-120px);
+    transform: translateY(-7.5rem);
   }
 }
 
@@ -297,7 +329,7 @@
   color: white;
   text-transform: uppercase;
   text-align: center;
-  font-size: 35px;
+  font-size: 2.188rem;
   font-weight: 600;
   transform: rotate(-10deg);
   font-family: "Inter";

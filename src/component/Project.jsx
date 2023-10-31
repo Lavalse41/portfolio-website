@@ -61,8 +61,7 @@ function Project() {
                         <img
                           src={item.img.src}
                           alt={item.img.alt}
-                          height="350"
-                          width="350"
+                          className="graphic-example"
                         ></img>
                         <p className="text">{item.title}</p>
                       </div>
@@ -84,7 +83,7 @@ function Project() {
                         <img
                           src={item.img.src}
                           alt={item.img.alt}
-                          height="600"
+                          className="web-example"
                         ></img>
 
                         <video
@@ -92,7 +91,6 @@ function Project() {
                           loop
                           muted
                           // controls
-                          height="600"
                         >
                           <source src={item.video.src} type="video/webm" />
                         </video>
@@ -100,7 +98,7 @@ function Project() {
                         <div className="project-link">
                           <a className="project-link-wrapper">
                             <svg
-                              className="github"
+                              className="link-icon"
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 97.71 97.71"
                             >
@@ -120,7 +118,7 @@ function Project() {
                             className="project-link-wrapper"
                           >
                             <img
-                              width="25px"
+                              className="link-icon"
                               src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697711548/portfolio/cinema-clapperboard_nwnu2l.png"
                             ></img>
                             Live demo

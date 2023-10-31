@@ -15,7 +15,7 @@ function About() {
           <span id="hihand">
             <img
               className="cssanimation pepe"
-              width="120px"
+              id="hand-png"
               alt="hi-icon"
               src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697458390/portfolio/hi_ffllcv.png"
             ></img>
@@ -26,15 +26,16 @@ function About() {
           Ratip<span id="space2">{""}</span>
           <span id="flower">
             <img
-              width="120px"
+              id="flower-png"
               alt="flower-icon"
               src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697458390/portfolio/flower_ewvnw1.png"
             ></img>
           </span>
           rn Promsuk
         </p>
-        <p className="head head-1 po-3">
-          I{quoteSym}m a graphic designer and soon
+        <p className="head head-1 po-3 about-flex">
+          <div>I{quoteSym}m a graphic designer</div>
+          <div>and soon</div>
         </p>
         <p className="po-4">
           <span className="head head-1 gt-size">I will be a </span>
@@ -44,7 +45,7 @@ function About() {
         </p>
         <div id="leadline">
           <img
-            width="600px"
+            id="leadline-png"
             alt="leadline"
             src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697782628/portfolio/line-lead2_gi6xnj.png"
           ></img>

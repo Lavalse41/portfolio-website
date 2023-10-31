@@ -1,15 +1,8 @@
 import { HashLink as Link } from "react-router-hash-link";
 
 function Footer({ footerPosition }) {
-  console.log(footerPosition);
   return (
-    <div
-      style={{
-        maxWidth: "91.25rem",
-        margin: "auto",
-        padding: "0rem 5rem",
-      }}
-    >
+    <div className="footer-outer">
       <div
         id="footer"
         className={
@@ -20,13 +13,7 @@ function Footer({ footerPosition }) {
       >
         {/*phone*/}
 
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "1.6rem",
-          }}
-        >
+        <div className="footer-inner">
           <div className="contact-logo-circle">
             <svg
               className="contact-logo phone"

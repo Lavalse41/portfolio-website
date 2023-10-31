@@ -108,8 +108,7 @@ function Skill() {
             <span className="web-dev-img">
               <img
                 src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697472286/portfolio/coding_zsiaju.png"
-                height="350"
-                width="350"
+                id="icon-coding"
                 alt="icon-coding"
               ></img>
             </span>
@@ -117,7 +116,6 @@ function Skill() {
             <span className="sql-wrapper">
               <img
                 className="tool-icon sql"
-                width="70px"
                 alt="sql"
                 src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697472428/portfolio/tool%20icon/postgresql_cwltak.png"
               ></img>
@@ -125,7 +123,6 @@ function Skill() {
             <span className="node-wrapper">
               <img
                 className="tool-icon node"
-                width="45px"
                 alt="node"
                 src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697472428/portfolio/tool%20icon/nodejs-mark-color_ghvv30.png"
               ></img>
@@ -133,7 +130,6 @@ function Skill() {
             <span className="js-wrapper">
               <img
                 className="tool-icon js"
-                width="50px"
                 alt="js"
                 src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697472427/portfolio/tool%20icon/js_qzl5ha.png"
               ></img>
@@ -141,31 +137,27 @@ function Skill() {
             <span className="html-wrapper">
               <img
                 className="tool-icon html"
-                width="50px"
-                alt="sql"
+                alt="html"
                 src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697472427/portfolio/tool%20icon/html_ixs1tk.png"
               ></img>
             </span>
             <span className="css-wrapper">
               <img
                 className="tool-icon css"
-                width="60px"
-                alt="sql"
+                alt="css"
                 src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697472426/portfolio/tool%20icon/css_h2llhp.png"
               ></img>
             </span>
             <span className="react-wrapper">
               <img
                 className="tool-icon react"
-                width="60px"
-                alt="sql"
+                alt="react"
                 src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697473021/portfolio/tool%20icon/React_zryglk.png"
               ></img>
             </span>
             <span className="tailw-wrapper">
               <img
                 className="tool-icon tailw"
-                width="60px"
                 alt="tailw"
                 src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697546902/portfolio/tool%20icon/tailwind_mrmbmq.png"
               ></img>
@@ -173,7 +165,6 @@ function Skill() {
             <span className="mongo-wrapper">
               <img
                 className="tool-icon mongo"
-                width="90px"
                 alt="mongo"
                 src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1697547836/portfolio/tool%20icon/Mongodb_lavcav.png"
               ></img>
@@ -212,8 +203,7 @@ function Skill() {
         <div>
           <img
             src="https://res.cloudinary.com/dluc2m7kg/image/upload/v1695387119/portfolio/graphic_kozwsx.jpg"
-            height="350"
-            width="350"
+            id="icon-graphic"
             alt="icon-graphic"
           ></img>
           <p className="head head-3">Graphic Design</p>

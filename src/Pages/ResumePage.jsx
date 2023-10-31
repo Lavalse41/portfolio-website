@@ -13,15 +13,7 @@ function ResumePage() {
   return (
     <>
       <Navbar />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "70vh",
-          padding: "0rem 5rem",
-        }}
-      >
+      <div className="resume-outer">
         <div className="resume-wrapper">
           <div className="resume-side">
             <div>
@@ -123,12 +115,7 @@ function ResumePage() {
                   coding to take my career to the next level.
                 </div>
 
-                <div
-                  style={{
-                    display: "flex",
-                    gap: "3rem",
-                  }}
-                >
+                <div className="edu-skill-wrapper">
                   <div
                     style={{
                       display: "flex",
@@ -137,25 +124,21 @@ function ResumePage() {
                     }}
                   >
                     <div className="resume-topic">Education</div>
-                    <div>
-                      <div className="resume-bold">Coding Bootcamp</div>
-                      Full-Stack Software Development
-                      <br></br>TechUp, June – October 2023
-                    </div>
-                    <div>
-                      <div className="resume-bold">Bachelor’s Degree</div>Fine
-                      Arts<br></br>
-                      King Monkut University<br></br> of Technology Thonburi,
-                      2017 – 2020
+                    <div className="edu-wrapper">
+                      <div>
+                        <div className="resume-bold">Coding Bootcamp</div>
+                        Full-Stack Software Development
+                        <br></br>TechUp, June – October 2023
+                      </div>
+                      <div>
+                        <div className="resume-bold">Bachelor’s Degree</div>Fine
+                        Arts<br></br>
+                        King Monkut University<br></br> of Technology Thonburi,
+                        2017 – 2020
+                      </div>
                     </div>
                   </div>
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: "2rem",
-                    }}
-                  >
+                  <div className="resume-skill-wrapper">
                     <div className="resume-topic">Technical Skills</div>
                     <div>
                       <div className="resume-bold">Front-End:</div>
@@ -163,6 +146,7 @@ function ResumePage() {
                         style={{
                           display: "flex",
                           gap: "0.5rem",
+                          flexWrap: "wrap",
                         }}
                       >
                         <div className="resume-tools">HTML</div>
@@ -177,6 +161,7 @@ function ResumePage() {
                         style={{
                           display: "flex",
                           gap: "0.5rem",
+                          flexWrap: "wrap",
                         }}
                       >
                         <div className="resume-tools">Node.js</div>

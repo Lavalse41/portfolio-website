@@ -1,4 +1,5 @@
 import "../App.css";
+import "../responsive.css";
 import About from "../component/About.jsx";
 import Skill from "../component/Skill.jsx";
 import Project from "../component/Project.jsx";
