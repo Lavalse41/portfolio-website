@@ -1,0 +1,302 @@
+@media only screen and (min-width: 1537px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  html {
+    font-size: 100%;
+  }
+
+  .footer-outer {
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 80%;
+  }
+
+  /*about*/
+  .head-1 {
+    font-size: 450%;
+  }
+
+  #flower {
+    left: 10.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 70%;
+  }
+
+  /*about*/
+  .head-1 {
+    font-size: 400%;
+  }
+
+  #flower {
+    left: 9.5rem;
+  }
+
+  #hihand {
+    left: 4.5rem;
+  }
+
+  #glow {
+    position: relative;
+    top: 28rem;
+    left: -8rem;
+  }
+
+  .edu-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .edu-skill-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .resume-skill-wrapper {
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 818px) {
+  .project-hidden {
+    height: 100rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+
+  #wrapper-nav {
+    padding: 1.875rem 0rem;
+  }
+
+  .port-container {
+    margin-bottom: 6rem;
+  }
+
+  #root {
+    padding: 0rem 3rem;
+  }
+
+  .web-example,
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 70%;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 1.5rem;
+  }
+
+  /*about*/
+
+  .po-2 {
+    left: 7rem;
+  }
+
+  .po-4 {
+    left: 15.7rem;
+    top: 0.05rem;
+  }
+
+  .about-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #flower-png,
+  #hand-png {
+    width: 7rem;
+  }
+
+  #flower {
+    left: 9.2rem;
+  }
+
+  /*i will be floating*/
+
+  .about-float {
+    position: relative;
+  }
+
+  #i-will-be-a {
+    position: absolute;
+    top: -5.6rem;
+    left: 2.5rem;
+  }
+
+  /*i will be floating*/
+
+  #glow {
+    position: relative;
+    top: 38rem;
+    left: 15rem;
+  }
+
+  .head-1 {
+    font-size: 380%;
+  }
+
+  #glow img {
+    width: 28rem;
+  }
+
+  #glow > a > .about-me {
+    top: 35%;
+    left: 24%;
+    font-size: 1.7rem;
+  }
+
+  .about-desc {
+    left: -3rem;
+  }
+
+  /*resume*/
+
+  .ratiporn:after,
+  .promsuk:after {
+    -webkit-text-stroke: 6px var(--main--2);
+  }
+
+  #wrapper-nav {
+    margin-left: 1rem;
+  }
+
+  .edu-wrapper {
+    flex-direction: column;
+  }
+  .resume-content {
+    margin-top: 2rem;
+  }
+  .resume-outer {
+    display: flex;
+    align-items: flex-start;
+    max-width: 30rem;
+    min-width: 21rem;
+  }
+
+  #wrapper-nav > div {
+    margin-right: 1.7rem;
+  }
+
+  .resume-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-wrapper-resume {
+    top: 58rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-outer {
+    /* padding: 0rem 1.5rem; */
+  }
+}
+
+@media only screen and (max-width: 564px) {
+  .head-1 {
+    font-size: 240%;
+  }
+
+  #leadline-png {
+    width: 28rem;
+    position: relative;
+    left: -3rem;
+    top: -10rem;
+  }
+
+  .about-desc {
+    left: -2.5rem;
+  }
+
+  #glow {
+    top: 29rem;
+    left: 5rem;
+  }
+
+  #flower-png,
+  #hand-png {
+    width: 4.5rem;
+  }
+
+  #flower {
+    left: 6.2rem;
+  }
+
+  #hihand {
+    left: 3.2rem;
+    top: -2rem;
+  }
+
+  #space1 {
+    padding-left: 5.5rem;
+  }
+
+  #space2 {
+    padding-left: 4.9rem;
+  }
+
+  /*i will be floating*/
+
+  .about-float {
+    position: relative;
+  }
+
+  #i-will-be-a {
+    position: absolute;
+    top: -3.59rem;
+    left: -4rem;
+  }
+
+  /*i will be floating*/
+
+  /*project*/
+
+  .project-hidden {
+    height: 185rem;
+  }
+
+  #option .blue {
+    margin-bottom: 1rem;
+  }
+
+  .wrapper-port {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 497px) {
+}
+
+@media only screen and (max-width: 376px) {
+  .head-1 {
+    font-size: 250%;
+  }
+
+  /* .footer-wrapper {
+    top: 690px;
+  } */
+}

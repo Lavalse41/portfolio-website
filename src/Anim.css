@@ -1,0 +1,340 @@
+/*tool animation*/
+.tool-icon {
+  position: absolute;
+}
+
+.sql {
+  width: 4.375rem;
+}
+
+.sql-wrapper-final {
+  animation: x-axis-sql 0.7s linear forwards;
+}
+
+.sql-wrapper {
+  z-index: 2;
+  position: absolute;
+  left: -18.75rem;
+  top: 14.375rem;
+}
+
+.sql-final {
+  animation: y-axis-sql 0.7s ease-out forwards; /* Apply animation to both start and end positions */
+}
+
+@keyframes x-axis-sql {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(10rem);
+  }
+}
+@keyframes y-axis-sql {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-13.75rem);
+  }
+}
+
+.mongo {
+  width: 6rem;
+}
+
+.mongo-wrapper-final {
+  animation: x-axis-mongo 0.7s linear forwards;
+}
+
+.mongo-wrapper {
+  z-index: 2;
+  position: absolute;
+  left: -17.5rem;
+  top: 13.75rem;
+}
+
+.mongo-final {
+  animation: y-axis-mongo 0.7s ease-out forwards;
+}
+
+@keyframes x-axis-mongo {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(10rem);
+  }
+}
+@keyframes y-axis-mongo {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-8.125rem);
+  }
+}
+
+.react {
+  width: 3.75rem;
+}
+
+.react-wrapper {
+  z-index: 2;
+  position: absolute;
+  left: -13.75rem;
+  top: 14.375rem;
+}
+
+.react-wrapper-final {
+  animation: x-axis-react 0.7s linear forwards;
+}
+
+.react-final {
+  animation: y-axis-react 0.7s ease-out forwards;
+}
+
+@keyframes x-axis-react {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(3.75rem);
+  }
+}
+@keyframes y-axis-react {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-16.875rem);
+  }
+}
+
+.js {
+  width: 3.125rem;
+}
+
+.js-wrapper {
+  z-index: 2;
+  position: absolute;
+  left: -17.5rem;
+  top: 15rem;
+}
+
+.js-wrapper-final {
+  animation: x-axis-js 0.6s linear forwards;
+}
+
+.js-final {
+  animation: y-axis-js 0.6s ease-out forwards;
+}
+
+@keyframes x-axis-js {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(0.938rem);
+  }
+}
+
+@keyframes y-axis-js {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-18.75rem);
+  }
+}
+
+.css {
+  width: 3.75rem;
+}
+
+.css-wrapper {
+  z-index: 2;
+  position: absolute;
+  left: -21.25rem;
+  top: 15rem;
+}
+
+.css-wrapper-final {
+  animation: x-axis-css 0.6s linear forwards;
+}
+
+.css-final {
+  animation: y-axis-css 0.6s ease-out forwards;
+}
+
+@keyframes x-axis-css {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-2.813rem);
+  }
+}
+
+@keyframes y-axis-css {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-18.75rem);
+  }
+}
+
+.html {
+  width: 3.125rem;
+}
+
+.html-wrapper {
+  z-index: 2;
+  position: absolute;
+  left: -18.75rem;
+  top: 15.625rem;
+}
+
+.html-wrapper-final {
+  animation: x-axis-html 0.7s linear forwards;
+}
+
+.html-final {
+  animation: y-axis-html 0.7s ease-out forwards;
+}
+
+@keyframes x-axis-html {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-8.75rem);
+  }
+}
+
+@keyframes y-axis-html {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-16.875rem);
+  }
+}
+
+.tailw {
+  width: 4rem;
+}
+
+.tailw-wrapper {
+  z-index: 3;
+  position: absolute;
+  left: -18.75rem;
+  top: 15rem;
+}
+
+.tailw-wrapper-final {
+  animation: x-axis-tailw 0.7s linear forwards;
+}
+
+.tailw-final {
+  animation: y-axis-tailw 0.7s ease-out forwards;
+}
+
+@keyframes x-axis-tailw {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-12.5rem);
+  }
+}
+
+@keyframes y-axis-tailw {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-11.875rem);
+  }
+}
+
+.node {
+  width: 2.8125rem;
+}
+
+.node-wrapper {
+  z-index: 10;
+  position: absolute;
+  left: -15.625rem;
+  top: 15.625rem;
+}
+
+.node-wrapper-final {
+  animation: x-axis-node 0.7s linear forwards;
+}
+
+.node-final {
+  animation: y-axis-node 0.7s ease-out forwards;
+}
+
+@keyframes x-axis-node {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-13.75rem);
+  }
+}
+
+@keyframes y-axis-node {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-7.5rem);
+  }
+}
+
+/*tool animation*/
+
+.pepe {
+  animation-name: pepe;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+@keyframes pepe {
+  from,
+  33%,
+  66%,
+  to {
+    transform: rotate(10deg);
+  }
+  16%,
+  50%,
+  83% {
+    transform: rotate(-10deg);
+  }
+}
+
+#glow img:hover {
+  scale: 1.2;
+}
+
+.about-me {
+  position: absolute;
+  top: 37%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.188rem;
+  font-weight: 600;
+  transform: rotate(-10deg);
+  font-family: "Inter";
+}
+
+.about-me:hover {
+  cursor: pointer;
+}
