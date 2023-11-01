@@ -106,13 +106,13 @@ function ResumePage() {
                     marginBottom: "3rem",
                   }}
                 >
-                  Hey there! So, after spending a couple of years in the world
-                  of graphic design, I decided to switch things up and dive into
-                  web development. I've been absolutely loving it, especially
-                  the problem-solving aspect and that awesome feeling when I
-                  conquer a challenge. That's why I'm all in on front-end
-                  development now – I want to combine my design skills with
-                  coding to take my career to the next level.
+                  After spending a couple of years in graphic design career
+                  path, I decided to switch things up and dive into web
+                  development. I've been passionate about it, especially the
+                  problem-solving aspect and that fantastic feeling when I
+                  conquer a challenge. That's why I'm pursuing front-end
+                  development. From now on, I want to combine my design skills
+                  with coding to take my career to the next level.
                 </div>
 
                 <div className="edu-skill-wrapper">

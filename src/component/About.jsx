@@ -35,13 +35,17 @@ function About() {
         </p>
         <p className="head head-1 po-3 about-flex">
           <div>I{quoteSym}m a graphic designer</div>
-          <div>and soon</div>
+          <div style={{ marginLeft: "1rem" }}>and soon</div>
         </p>
-        <p className="po-4">
-          <span className="head head-1 gt-size">I will be a </span>
-          <span className="head-1 curly gt-size">{curlyL}</span>
-          <span className="head-1 gt-size">web-developer</span>
-          <span className="head-1 curly gt-size">{curlyR}</span>
+        <p className="po-4 about-flex about-float">
+          <span id="i-will-be-a" className="head head-1 gt-size">
+            I will be a{" "}
+          </span>
+          <div>
+            <span className="head-1 curly gt-size">{curlyL}</span>
+            <span className="head-1 gt-size">web-developer</span>
+            <span className="head-1 curly gt-size">{curlyR}</span>
+          </div>
         </p>
         <div id="leadline">
           <img

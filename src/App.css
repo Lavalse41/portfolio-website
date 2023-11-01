@@ -80,7 +80,9 @@ video {
 }
 
 .about-flex {
+  position: relative;
   display: flex;
+  flex-direction: row;
 }
 
 #leadline-png {
@@ -323,6 +325,7 @@ img {
 
 .slides .slide {
   width: 25%;
+  height: auto;
   float: left;
   display: flex;
   justify-content: center;
@@ -418,6 +421,10 @@ img {
 
 .separate-line {
   border-right: solid 2px black;
+}
+
+.text {
+  text-align: center;
 }
 
 a {
@@ -623,6 +630,13 @@ button:hover {
 }
 
 .footer-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.footer-wrapper-resume {
   position: relative;
   display: flex;
   justify-content: space-between;

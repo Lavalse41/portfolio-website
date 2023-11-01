@@ -6,12 +6,14 @@ function Footer({ footerPosition }) {
       <div
         id="footer"
         className={
-          footerPosition === "graphic"
-            ? `footer-wrapper high`
-            : `footer-wrapper low`
+          location.name === "/"
+            ? footerPosition === "graphic"
+              ? "footer-wrapper high"
+              : "footer-wrapper low"
+            : "footer-wrapper-resume"
         }
       >
-        {/*phone*/}
+        {/*phone number*/}
 
         <div className="footer-inner">
           <div className="contact-logo-circle">

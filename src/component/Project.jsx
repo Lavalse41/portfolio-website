@@ -96,7 +96,11 @@ function Project() {
                         </video>
                         <p className="project-name">{item.title}</p>
                         <div className="project-link">
-                          <a className="project-link-wrapper">
+                          <a
+                            className="project-link-wrapper"
+                            href={item.github}
+                            target="_blank"
+                          >
                             <svg
                               className="link-icon"
                               xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +117,7 @@ function Project() {
                           </a>
                           <div className="separate-line"></div>
                           <a
-                            href={item.link}
+                            href={item.demo}
                             target="_blank"
                             className="project-link-wrapper"
                           >
