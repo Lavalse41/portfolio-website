@@ -100,14 +100,16 @@
 
 @media only screen and (max-width: 640px) {
   html {
-    font-size: 70%;
+    font-size: 80%;
   }
 
   #root {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0rem 1.5rem;
+    overflow-x: hidden;
   }
 
   /*about*/
@@ -267,8 +269,9 @@
 
   #i-will-be-a {
     position: absolute;
-    top: -3.59rem;
-    left: -4rem;
+    top: -3.65rem;
+    left: -3rem;
+    font-style: normal;
   }
 
   /*i will be floating*/
@@ -286,9 +289,6 @@
   .wrapper-port {
     margin-bottom: 1rem;
   }
-}
-
-@media only screen and (max-width: 497px) {
 }
 
 @media only screen and (max-width: 376px) {
