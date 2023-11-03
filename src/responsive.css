@@ -112,6 +112,18 @@
     overflow-x: hidden;
   }
 
+  @keyframes moveInRight {
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    0% {
+      transform: translateX(50rem);
+      opacity: 0;
+    }
+  }
+
   /*about*/
 
   .po-2 {
@@ -153,7 +165,7 @@
 
   #glow {
     position: relative;
-    top: 38rem;
+    top: 33rem;
     left: 15rem;
   }
 
@@ -274,6 +286,10 @@
     font-style: normal;
   }
 
+  #glow {
+    top: 26rem;
+  }
+
   /*i will be floating*/
 
   /*project*/
@@ -293,7 +309,43 @@
 
 @media only screen and (max-width: 376px) {
   .head-1 {
-    font-size: 250%;
+    font-size: 200%;
+  }
+
+  #flower {
+    left: 5rem;
+    top: -0.3rem;
+  }
+
+  #hihand {
+    left: 2.5rem;
+    top: -2rem;
+  }
+
+  #space2 {
+    padding: 2.3rem;
+  }
+
+  #i-will-be-a {
+    position: absolute;
+    top: -2.98rem;
+    left: -4.7rem;
+  }
+
+  #leadline-png {
+    width: 24.5rem;
+  }
+
+  #skill > p {
+    font-size: 1.875rem;
+  }
+
+  #portfolio > p {
+    font-size: 1.875rem;
+  }
+
+  #glow {
+    top: 24.5rem;
   }
 
   /* .footer-wrapper {

@@ -346,7 +346,6 @@ img {
   border-radius: 1.875rem;
   font-weight: bold;
   margin: 0 0.625rem;
-  font-size: ;
 }
 
 .blue {
@@ -359,10 +358,12 @@ img {
 
 #slide1:checked ~ #option label:nth-child(1) {
   background: var(--main--2);
+  color: white;
 }
 
 #slide2:checked ~ #option label:nth-child(2) {
   background: var(--main--1);
+  color: white;
 }
 
 .wrapper-port {
